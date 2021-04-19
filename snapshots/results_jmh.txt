@@ -1,0 +1,13 @@
+Benchmark                  (maxPrime)  Mode  Cnt    Score    Error  Units
+Benchmarks.initialVersion          10  avgt    3    0.001 ±  0.001   s/op
+Benchmarks.initialVersion         100  avgt    3    0.006 ±  0.001   s/op
+Benchmarks.initialVersion        1000  avgt    3    0.131 ±  0.241   s/op
+Benchmarks.initialVersion       10000  avgt    3    0.891 ±  1.437   s/op
+Benchmarks.initialVersion      100000  avgt    3    6.754 ±  5.821   s/op
+Benchmarks.initialVersion      300000  avgt    3  109.678 ± 50.022   s/op
+Benchmarks.newVersion              10  avgt    3    0.001 ±  0.001   s/op
+Benchmarks.newVersion             100  avgt    3    0.001 ±  0.001   s/op
+Benchmarks.newVersion            1000  avgt    3    0.001 ±  0.002   s/op
+Benchmarks.newVersion           10000  avgt    3    0.003 ±  0.003   s/op
+Benchmarks.newVersion          100000  avgt    3    0.026 ±  0.004   s/op
+Benchmarks.newVersion          300000  avgt    3    0.097 ±  0.253   s/op
